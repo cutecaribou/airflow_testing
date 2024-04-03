@@ -13,7 +13,7 @@ def my_print(file_name: str):
         return data
 
 with DAG(
-    dag_id='kva_dag',
+    dag_id='my_second_dag',
     schedule=None
 ) as my_dag:
     first_task = PythonOperator(

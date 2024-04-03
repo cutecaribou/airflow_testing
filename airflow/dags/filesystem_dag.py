@@ -37,7 +37,7 @@ def path_join(root, file_name):
 
 dir_path = './'
 with DAG(
-    dag_id='loop_dag_4',
+    dag_id='filesystem_dag',
     schedule=None
 ) as my_dag:
     excluded = ['./venv', 'venv', './.git', '.git', '.idea', './.idea', 'logs']

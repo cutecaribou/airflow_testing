@@ -8,7 +8,7 @@ def foo(i: int):
     return i**2
 
 with DAG(
-    dag_id='loop_dag_3_1',
+    dag_id='blocks_of_tasks_1',
     schedule=None
 ) as my_dag:
     prev_last_task_in_block = None
