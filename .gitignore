@@ -2,3 +2,4 @@ venv
 airflow/logs
 airflow/airflow.db
 __pycache__/
+.idea
